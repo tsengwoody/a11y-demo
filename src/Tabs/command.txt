@@ -1,0 +1,28 @@
+step1
+"write me a script using the following React code and create a tab pattern with 3 tab item/panelusing React and Tailwind CSS that is completely 508 compliant and accessible visually and to screen-readers. import React from 'react'"
+
+This script creates a `Tab` component that uses React state to keep track of which tab item is currently active. It uses the Tailwind CSS class names for styling, and implements accessibility best practices by using appropriate focus states and keeping the tab labels and content accessible to screen readers.
+
+step2
+but this example not set role="tabpanel"/"tabitem" in element
+
+Here's an updated version of the script that sets the `role` attributes as you requested:
+step2.js
+This version of the script sets the `role` attributes on the appropriate elements to indicate their role as tab items or tab panels, and also sets the `aria-selected` and `tabIndex` attributes on the tab items to indicate which tab is selected and to ensure proper keyboard accessibility.
+
+step3
+adding keyboard control for tabitem
+1. left arrow can change actived tabitem to previous
+2. right arrow can change actived tabitem to next
+3. up arrow can change actived tabitem to previous
+4. down arrow can change actived tabitem to next
+
+Here's an updated version of the script that adds keyboard controls to navigate between tab items:
+step3.js
+In this version of the script, a `
+
+step4
+add change focus to active tabitem when active tabitem changed
+
+Here's the updated version of the script with the added feature of changing focus to the active tab item when it changes:
+step4.js
